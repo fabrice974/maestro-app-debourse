@@ -3,7 +3,7 @@
   "defaultVariables": null,
   "documentGenerator": {
     "fromDocument": {
-      "url": "../../contrats/openapi.yaml",
+      "url": "contrat/openapi.yaml",
       "output": null
     }
   },

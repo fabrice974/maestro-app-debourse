@@ -2,7 +2,7 @@
 
   <!--
     Application Déboursé (.NET) : branchée sur le backbone uniquement via le contrat
-    ../../contrats/openapi.yaml. Le client C# (Passerelle/PasserelleClient.g.cs) est généré par NSwag
+    contrat/openapi.yaml (copie figée de maestro-v2/contrats/openapi.yaml). Le client C# (Passerelle/PasserelleClient.g.cs) est généré par NSwag
     (voir nswag.json et README.md) puis commité : la compilation ne dépend d'aucun paquet externe,
     ni NSwag, ni Camunda/Zeebe.
   -->
@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <!-- Le contrat est affiché dans l'explorateur de solution, sans être compilé. -->
-    <None Include="..\..\contrats\openapi.yaml" Link="Contrat\openapi.yaml" />
+    <None Include="contrat\openapi.yaml" />
   </ItemGroup>
 
 </Project>
